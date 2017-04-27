@@ -72,5 +72,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/shauew/shauew.github.io.git
+  repository: git@github.com:shauew/shauew.github.io.git
   branch: master
