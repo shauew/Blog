@@ -38,11 +38,12 @@ seo: false
 menu:
   home: /
   categories: /categories
-  about: /about
+  # about: /about
   archives: /archives
   tags: /tags
-  sitemap: /sitemap.xml
-  #commonweal: /404.html
+  search: /search
+  # sitemap: /sitemap.xml
+  # commonweal: /404.html
 
 
 # Enable/Disable menu icons.
