@@ -82,10 +82,18 @@ algolia:
   indexName: 'shauew_search'
   chunkSize: 5000
 
-#本地搜索
+# 本地搜索
 search:
   path: search.xml
   field: post
   format: html
   limit: 10000
+
+# 设置RSS
+feed:
+  type: rss2
+  path: rss2.html
+  limit: 5
+  hub:
+  content: 'ture'
 
