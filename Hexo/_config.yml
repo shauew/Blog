@@ -15,7 +15,7 @@ since: 2017
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://shauew.tech
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -96,4 +96,10 @@ feed:
   limit: 5
   hub:
   content: 'ture'
+
+# sitemap <comment>
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
 
