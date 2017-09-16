@@ -9,11 +9,7 @@
 </div>
 
 {% if theme.copyright %}
-<div class="powered-by">
-  {{ __('footer.powered', '') }}
-</div>
-
 <div class="theme-info">
-  {{ __('footer.theme') }}
+  <span>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></span>
 </div>
 {% endif %}
